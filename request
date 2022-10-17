@@ -1,0 +1,7 @@
+create table pizza(
+    id integer primary key AUTO_INCREMENT,
+    image varchar(255) not null,
+    name varchar(100) not null,
+    ingredients varchar(255) not null,
+    price varchar(15) not null
+);
